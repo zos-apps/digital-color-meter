@@ -20,7 +20,21 @@
         "height": 200
       },
       "resizable": false
-    }
+    },
+    "about": "Pick colors from anywhere on screen with precision.",
+    "help": [
+      "Move cursor to sample colors",
+      "Click to copy color value",
+      "Choose format from dropdown"
+    ],
+    "docs": "https://zos-apps.github.io/digital-color-meter",
+    "site": "https://github.com/zos-apps/digital-color-meter",
+    "features": [
+      "Real-time color picking",
+      "Multiple color formats",
+      "Magnifier",
+      "Color history"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +67,13 @@
     "digital-color-meter",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
