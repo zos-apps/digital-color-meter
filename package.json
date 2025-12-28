@@ -34,7 +34,26 @@
       "Multiple color formats",
       "Magnifier",
       "Color history"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/digital-color-meter"
+    },
+    "featured": false,
+    "tags": [
+      "system",
+      "utility",
+      "digital color meter"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/digital-color-meter/issues",
+    "changelog": "https://github.com/zos-apps/digital-color-meter/releases"
   },
   "scripts": {
     "build": "tsup",
