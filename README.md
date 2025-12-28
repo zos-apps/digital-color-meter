@@ -1,50 +1,54 @@
 # 🎨 Digital Color Meter
 
-Pick and analyze colors from anywhere on screen
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/digital-color-meter/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/digital-color-meter)
 
-## Category
-`system`
+> Pick and analyze colors from anywhere on screen
+
+**[Documentation](https://zos-apps.github.io/digital-color-meter)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/digital-color-meter
-# or
-pnpm add @anthropic/digital-color-meter
+npm install github:zos-apps/digital-color-meter
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import App from '@anthropic/digital-color-meter';
+import DigitalColorMeter from '@zos-apps/digital-color-meter';
 
-function MyComponent() {
-  return <App onClose={() => console.log('closed')} />;
+function App() {
+  return <DigitalColorMeter />;
 }
 ```
 
-## Development
+## Features
 
-```bash
-# Install dependencies
-pnpm install
+- Native zOS window integration
+- Dark mode support
 
-# Build
-pnpm build
+- Context menu actions
+- Menu bar integration
 
-# Watch mode
-pnpm dev
-```
+## Category
 
-## zOS Integration
+**System**
 
-This app is designed to run within zOS, a web-based operating system. It follows the zOS app specification with:
+## Permissions
 
-- Standalone React component
-- TypeScript support
-- Tailwind CSS styling
-- Window management integration
+- `screen`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/digital-color-meter)
+- [GitHub Repository](https://github.com/zos-apps/digital-color-meter)
+- [Report Issues](https://github.com/zos-apps/digital-color-meter/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)

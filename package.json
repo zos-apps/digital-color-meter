@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/digital-color-meter",
+  "name": "@zos-apps/digital-color-meter",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,14 @@
     "icon": "🎨",
     "category": "system",
     "description": "Pick and analyze colors from anywhere on screen",
-    "permissions": ["screen"],
+    "permissions": [
+      "screen"
+    ],
     "window": {
-      "defaultSize": { "width": 300, "height": 200 },
+      "defaultSize": {
+        "width": 300,
+        "height": 200
+      },
       "resizable": false
     }
   },
@@ -30,5 +35,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Pick and analyze colors from anywhere on screen",
+  "homepage": "https://zos-apps.github.io/digital-color-meter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/digital-color-meter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/digital-color-meter/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "digital-color-meter",
+    "macos",
+    "desktop"
+  ]
 }
