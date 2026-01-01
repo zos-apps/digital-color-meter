@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 
 interface DigitalColorMeterProps {
   onClose: () => void;
@@ -6,7 +6,7 @@ interface DigitalColorMeterProps {
 
 type ColorFormat = 'hex' | 'rgb' | 'hsl';
 
-const DigitalColorMeter: React.FC<DigitalColorMeterProps> = ({ onClose }) => {
+const DigitalColorMeter: React.FC<DigitalColorMeterProps> = ({ onClose: _onClose }) => {
   const [color, setColor] = useState({ r: 66, g: 133, b: 244 });
   const [format, setFormat] = useState<ColorFormat>('hex');
   const [copied, setCopied] = useState(false);
